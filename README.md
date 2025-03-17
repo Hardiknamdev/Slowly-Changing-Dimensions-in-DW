@@ -2,7 +2,7 @@
 
 ## Slowly Changing Dimensions (SCD) refer to dimensions in a data warehouse that change over time, but not frequently. These changes might include updates or additions to historical records or other changes in dimension attributes.
 
-Here I have implemented SCD Type 1 and Type 2 using SQL by taking different iphone launches and price changes over time.
+# Here I have implemented SCD Type 1 and Type 2 using SQL by taking different iphone launches and price changes over time.
 
 ### SCD Type 1 – Overwrite
 ### Definition: When a change occurs, the old value is simply overwritten with the new value. There is no historical tracking of changes.
